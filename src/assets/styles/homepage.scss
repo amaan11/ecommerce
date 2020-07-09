@@ -1,0 +1,115 @@
+@import 'variables.scss';
+
+.login-text:hover {
+  color: $secondary;
+}
+.image-div {
+  position: relative;
+}
+
+.icon {
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: $white;
+  padding: 10px;
+}
+::selection {
+  color: $black;
+  background: none;
+}
+.ant-modal-header {
+  border-bottom: none !important;
+}
+.default {
+  color: $default;
+}
+.form-group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+}
+
+.form-field {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #d2d2d2;
+  outline: 0;
+  font-size: 16px;
+  color: #212121;
+  padding: 7px 0;
+  background: transparent;
+}
+
+.form-field::placeholder {
+  color: transparent;
+}
+
+.form-field:placeholder-shown ~ .form-label {
+  font-size: 16px;
+  cursor: text;
+  top: 20px;
+}
+
+label,
+.form-field:focus ~ .form-label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 12px;
+  color: #9b9b9b;
+}
+
+.form-field:focus ~ .form-label {
+  color: $secondary;
+}
+
+.form-field:focus {
+  padding-bottom: 6px;
+  border-bottom: 2px solid #009788;
+}
+.continue-btn {
+  height: 40px;
+  background-color: $secondary;
+  color: $white;
+  font-size: 20px;
+  border: none !important;
+}
+.continue-btn :focus {
+  border: none !important;
+  outline: none !important;
+}
+
+.color-green {
+  color: $secondary;
+}
+.ant-modal-header {
+  margin-bottom: -30px;
+}
+.ant-btn:hover,
+.ant-btn:focus {
+  color: $secondary;
+  border-color: $secondary;
+}
+.ant-btn-link {
+  color: $secondary;
+  margin-left: -10px;
+}
+.ant-btn-link:hover,
+.ant-btn-link:focus {
+  border: none;
+}
+.mobile-signup-header {
+  width: 60%;
+}
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  color: $white;
+  border-color: $primary;
+}
+.error {
+  color: $danger;
+  font-size: 10px;
+}

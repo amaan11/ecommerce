@@ -1,0 +1,125 @@
+@import 'variables.scss';
+
+.product-div {
+  position: relative;
+}
+.product-image {
+  width: 100%;
+  height: 300px;
+}
+.new-div {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 14px;
+  background-color: $primary;
+  color: $white;
+  font-weight: bold;
+}
+.gray {
+  color: $default;
+}
+.product-option-image {
+  width: 50px;
+  height: 50px;
+}
+.transaparent {
+  opacity: 1;
+}
+.blur {
+  opacity: 0.5;
+}
+.cart-icon {
+  position: absolute;
+  right: 10px;
+  bottom: 84px;
+  color: $grey;
+}
+
+.wishlist-icon {
+  position: absolute;
+  right: 10px;
+  bottom: 48px;
+  color: $grey;
+}
+.view-icon {
+  position: absolute;
+  right: 10px;
+  bottom: 12px;
+  color: $grey;
+}
+.product-icon:hover {
+  color: $danger;
+}
+
+.color-div {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}
+.color-danger {
+  color: $danger;
+}
+.tab-item {
+  font-size: 16px;
+}
+.ant-tabs-nav-container {
+  display: flex;
+  justify-content: center;
+}
+.service {
+  border-top: 1px solid $grey;
+  border-bottom: 1px solid $grey;
+}
+.service-icon {
+  font-size: 40px;
+  color: $danger;
+}
+.border-top {
+  border-top: 1px solid $grey;
+}
+.tag-item {
+  border-radius: 15px;
+  background-color: $white;
+}
+.danger {
+  color: $danger;
+}
+.ant-collapse-header {
+  background: $white;
+}
+.ant-checkbox-wrapper {
+  position: inherit;
+}
+.ant-collapse-content {
+  border-top: none;
+}
+.size-tag {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid $grey;
+}
+.selected-tag {
+  border: 1px solid $danger;
+}
+.size-tag-unavailable {
+  border-top: 1px solid $grey;
+  transform: rotate(139deg);
+  position: relative;
+  top: -20px;
+  width: 40px;
+}
+.wishlist:hover {
+  border-color: $danger;
+  color: $danger;
+}
+.border-bottom {
+  border-bottom: 1px solid $grey;
+}
+.similar-product-card {
+  width: 250px;
+}

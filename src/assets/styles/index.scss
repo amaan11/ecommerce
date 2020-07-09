@@ -1,0 +1,66 @@
+@import 'responsive.scss';
+@import 'spacer.scss';
+@import 'homepage.scss';
+@import 'product.scss';
+
+.d-flex {
+  display: flex;
+  flex-direction: row;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.text-center {
+  text-align: center;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-24 {
+  font-size: 24px;
+}
+.bold {
+  font-weight: bold;
+}
+.full-width {
+  width: 100%;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.float-right {
+  float: right;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.color-black {
+  color: black;
+}
+.text-line-through {
+  text-decoration: line-through;
+}
+.danger-btn {
+  width: 120px;
+  height: 40px;
+  background-color: $danger;
+  color: $white;
+}
+.danger-btn:hover,
+.danger-btn:focus {
+  border: none !important;
+  background-color: $danger;
+  color: $white !important;
+}
+.border {
+  border: 1px solid $grey;
+}
